@@ -303,7 +303,7 @@ function love.draw()
     if gameState == "title" then
         love.graphics.setColor(1,1,1)
         love.graphics.printf("SNEK GAME", 0, love.graphics.getHeight()/3, love.graphics.getWidth(), "center")
-        love.graphics.printf("Press any key to start", 0, love.graphics.getHeight()/2, love.graphics.getWidth(), "center")
+        love.graphics.printf("Press any key to start (move with w/a/s/d)", 0, love.graphics.getHeight()/2, love.graphics.getWidth(), "center")
         return
     end
 
